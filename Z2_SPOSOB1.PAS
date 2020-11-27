@@ -1,4 +1,4 @@
-Program zadacha1;
+Program zadacha2_sposob1;
 var a, b, c: integer;
 begin
     {enter a, b, c}
