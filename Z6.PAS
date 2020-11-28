@@ -24,11 +24,11 @@ begin
         i := i + 1;
     end;
 
-    if sr = 0 then writeln('Output 2')
+    if sr = 0 then writeln('Output 2, Smax = ', s_max)
     else
     begin
         sr := sr div kp;
-        if s_max = sr then writeln('Output 3')
+        if s_max = sr then writeln('Output 3, Smax = ', s_max)
         else writeln('Output 1, Smax = ', s_max);
     end;
 
