@@ -1,4 +1,4 @@
-Program zadacha4_sposob1;
+Program zadacha5;
 var k, i, n, sum, sr, r, a, b: integer;
     s : array [1..50] of integer; {50 is maximum count of students in a group}
 begin
