@@ -19,11 +19,11 @@ begin
         kos := kos - 1;
     end;
 
-    if n = 0 then writeln(2)
+    if n = 0 then writeln('2, No scholarship')
     else
     begin
         r := sum div n;
-        writeln(r);
+        writeln('1, SR=',r);
     end;
 
     {pause before exit}
